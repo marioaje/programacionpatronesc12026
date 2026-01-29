@@ -1,11 +1,11 @@
 package org.example.model;
 
-public class TresNumeros {
+public class TresNumerosModel {
     private int numero1;
     private int numero2;
     private int numero3;
 
-    public TresNumeros(int numero1, int numero2, int numero3) {
+    public TresNumerosModel(int numero1, int numero2, int numero3) {
         this.numero1 = numero1;
         this.numero2 = numero2;
         this.numero3 = numero3;
