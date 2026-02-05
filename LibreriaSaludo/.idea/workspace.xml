@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="LibreriaSaludo" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9570be22-ffd8-4acc-9bf0-6474492d3c3e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ClasesProgramacion/src/main/java/org/example/controller/CuentaBancariaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesProgramacion/src/main/java/org/example/model/CuentaBancariaModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClasesProgramacion/src/main/java/org/example/view/CuentaBancariaView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FuncionesCalculadoraM/src/main/java/org/exampleM/FuncionesProf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FuncionesCalculadoraM/src/main/java/org/exampleM/controller/CalculadoraController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FuncionesCalculadoraM/src/main/java/org/exampleM/model/CalculadoraModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FuncionesCalculadoraM/src/main/java/org/exampleM/view/CalculadoraView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/LibreriaSaludo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Saludador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClasesProgramacion/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClasesProgramacion/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClasesProgramacion/src/main/java/org/example/controller/TresNumerosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClasesProgramacion/src/main/java/org/example/controller/TresNumerosController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClasesProgramacion/src/main/java/org/example/model/TresNumerosModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClasesProgramacion/src/main/java/org/example/model/TresNumerosModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClasesProgramacion/src/main/java/org/example/view/TresNumerosView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClasesProgramacion/src/main/java/org/example/view/TresNumerosView.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="39B2h8LnVvwR4Ju9IxKg0ZRoFBN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/Github/New folder/programacionpatronesc12026/LibreriaSaludo/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28539.33" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-IU-252.28539.33" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9570be22-ffd8-4acc-9bf0-6474492d3c3e" name="Changes" comment="" />
+      <created>1770155263643</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770155263643</updated>
+      <workItem from="1770155266556" duration="4219000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
