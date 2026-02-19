@@ -2,9 +2,8 @@ package org.example.controller;
 
 import org.example.model.Libro;
 import org.example.repository.BibliotecaRepositoryMemoria;
-import org.example.service.BibliotecaService;
-import org.example.service.BibliotecaServicio;
-import org.example.service.IBibliotecaService;
+import org.example.repository.BibliotecaRepositoryMySQL;
+import org.example.service.*;
 import org.example.view.BibliotecaView;
 
 public class BibliotecaController {
@@ -12,6 +11,7 @@ public class BibliotecaController {
     private BibliotecaView bibliotecaVista;
     private BibliotecaServicio bibliotecaServicio;
     private IBibliotecaService bibliotecaServicioContrato;
+    private IBibliotecaServiceMySQL bibliotecaServicioContratoMySQL;
     //????
 
     public BibliotecaController() {
@@ -19,6 +19,9 @@ public class BibliotecaController {
         bibliotecaServicio = new BibliotecaServicio();
         bibliotecaServicioContrato = new BibliotecaService(
                 new BibliotecaRepositoryMemoria()
+        );
+        bibliotecaServicioContratoMySQL = new BibliotecaServiceMySQL(
+                new BibliotecaRepositoryMySQL()
         );
     }
 
@@ -33,6 +36,15 @@ public class BibliotecaController {
 //                "Drama",
 //                "Si"
 //        ));
+
+                bibliotecaServicioContratoMySQL.agregarLibro(new Libro(
+
+                "Harry Potter",
+                "J K Rawling",
+                "Drama",
+                "Si",
+                 0
+        ));
     }
 
 }
