@@ -27,12 +27,12 @@ public class BibliotecaController {
         //Capturar los datos, desdel la vista con una funcion
         //Deberian tener nuestros menus
         bibliotecaVista.MensajeInicio();
-        bibliotecaServicioContrato.agregarLibro(new Libro(
-                "Harry Potter",
-                "J K Rawling",
-                "Drama",
-                "Si"
-        ));
+//        bibliotecaServicioContrato.agregarLibro(new Libro(
+//                "Harry Potter",
+//                "J K Rawling",
+//                "Drama",
+//                "Si"
+//        ));
     }
 
 }

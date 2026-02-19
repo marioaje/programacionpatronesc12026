@@ -4,8 +4,9 @@ import org.example.model.Libro;
 
 import java.util.ArrayList;
 import java.util.List;
+
 //Es como que leee desde los api o wcf
-public class BibliotecaRepositoryMemoria implements IBibliotecaRepository {
+public class BibliotecaRepositoryMySQL implements IBibliotecaRepository {
 
     private List<Libro> librosLista = new ArrayList<>();
 

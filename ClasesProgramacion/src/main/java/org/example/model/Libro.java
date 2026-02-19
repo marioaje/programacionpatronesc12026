@@ -4,17 +4,19 @@ public class Libro {
 
 
     //Cumplimos con el encapsulamiento
+    private int idlibroProfe;
     private String titulo;
     private String autor;
     private String categoria;
     private String disponibilidad;
-    public String atributoPublico;
+   // public String atributoPublico;
 
-    public Libro(String titulo, String autor, String categoria, String disponibilidad) {
+    public Libro(String titulo, String autor, String categoria, String disponibilidad, int idlibroProfe) {
         this.titulo = titulo;
         this.autor = autor;
         this.categoria = categoria;
         this.disponibilidad = disponibilidad;
+        this.idlibroProfe = idlibroProfe;
     }
 
     public String getTitulo() {
@@ -47,6 +49,14 @@ public class Libro {
 
     public void setDisponibilidad(String disponibilidad) {
         this.disponibilidad = disponibilidad;
+    }
+
+    public int getIdlibroProfe() {
+        return idlibroProfe;
+    }
+
+    public void setIdlibroProfe(int idlibroProfe) {
+        this.idlibroProfe = idlibroProfe;
     }
 
     //        Clase Libro:
