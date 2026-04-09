@@ -2,7 +2,7 @@ package org.example.repository;
 
 import org.example.misc.Conexion;
 import org.example.model.Libro;
-
+import org.example.model.Libros;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
@@ -21,6 +21,32 @@ public class BibliotecaRepositoryMySQL implements IBibliotecaRepositoryMySQL {
 
         try(    Connection conexion = Conexion.getConnection();
             PreparedStatement ps = conexion.prepareStatement(sql)
+        ){
+            ps.setString(1, libro.getTitulo());
+            ps.setString(2, libro.getAutor());
+            ps.setString(3, libro.getCategoria());
+            ps.setString(4, libro.getDisponibilidad());
+
+            ps.executeUpdate();
+
+            System.out.println("Libro agregado exitosamente");
+
+        } catch (SQLException e) {
+            System.out.println("Libro no agregado error");
+        }
+
+
+    }
+
+
+    public void agregarLibros(Libros libro){
+        //Pero debemos validar
+
+        String sql = "INSERT INTO `u484426513_proc126`.`libroProfe`(`titulo`,`autor`,`categoria`,`disponibilidad`)" +
+                "  VALUES ( ?, ?, ?, ?) ";
+
+        try(    Connection conexion = Conexion.getConnection();
+                PreparedStatement ps = conexion.prepareStatement(sql)
         ){
             ps.setString(1, libro.getTitulo());
             ps.setString(2, libro.getAutor());

@@ -12,11 +12,11 @@ import java.sql.Connection;
 public class Main {
     public static void main(String[] args) {
 
-//        Connection conexion =  Conexion.getConnection();
-//        if (conexion != null){
-//            System.out.println("Conexion establecida");
-//        }
-//
+        Connection conexion =  Conexion.getConnection();
+        if (conexion != null){
+            System.out.println("Conexion establecida");
+        }
+
         BibliotecaController bibliotecaController = new BibliotecaController();
         bibliotecaController.inicioSistema();
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text

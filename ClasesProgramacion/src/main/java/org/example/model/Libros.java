@@ -1,6 +1,6 @@
 package org.example.model;
 
-public class Libro {
+public class Libros {
 
 
     //Cumplimos con el encapsulamiento
@@ -9,17 +9,17 @@ public class Libro {
     private String autor;
     private String categoria;
     private String disponibilidad;
-   // public String atributoPublico;
-
-    public Libro(String titulo, String autor, String categoria, String disponibilidad, int idlibroProfe) {
+    // public String atributoPublico;
+    public Libros() {
+    }
+    public Libros(String titulo, String autor, String categoria, String disponibilidad) {
         this.titulo = titulo;
         this.autor = autor;
         this.categoria = categoria;
         this.disponibilidad = disponibilidad;
-        this.idlibroProfe = idlibroProfe;
+
     }
-    public Libro() {
-    }
+
     public String getTitulo() {
         return titulo;
     }
@@ -52,13 +52,6 @@ public class Libro {
         this.disponibilidad = disponibilidad;
     }
 
-    public int getIdlibroProfe() {
-        return idlibroProfe;
-    }
-
-    public void setIdlibroProfe(int idlibroProfe) {
-        this.idlibroProfe = idlibroProfe;
-    }
 
     //        Clase Libro:
 //
